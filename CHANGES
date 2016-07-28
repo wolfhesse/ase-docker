@@ -1,3 +1,10 @@
+Version 0.3.0:
+ - add ruby and python3 sample calls
+ - service ready
+ - initial json-logger
+ - Merge tag '0.2.0' into develop
+ - Merge branch 'r-0.2.0'
+
 Version 0.2.0:
  - cosmetix
  - Merge tag '0.1.0' into develop
