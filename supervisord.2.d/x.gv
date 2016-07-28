@@ -1,0 +1,24 @@
+digraph docker {
+ base -> "511136ea3c5a" [style=invis]
+ "511136ea3c5a" -> "d7ac5e4f1812"
+ "d7ac5e4f1812" -> "2f4b4d6a4a06"
+ "2f4b4d6a4a06" -> "83ff768040a0"
+ "83ff768040a0" -> "6c37f792ddac"
+ "6c37f792ddac" -> "e54ca5efa2e9"
+ "e54ca5efa2e9" -> "61855aa549c9"
+ "61855aa549c9" -> "2a061e111d79"
+ "2a061e111d79" -> "2f7f326425b3"
+ "2f7f326425b3" -> "1e6b5fe31e5c"
+ "1e6b5fe31e5c" -> "8077b575ee93"
+ "8077b575ee93" -> "83801683f9bb"
+ "83801683f9bb" -> "44c0b1e14370"
+ "44c0b1e14370" -> "564059f35e6e"
+ "564059f35e6e" -> "6924d7f1db76"
+ "6924d7f1db76" -> "e454806c03ad"
+ "e454806c03ad" -> "c08f7f832713"
+ "c08f7f832713" -> "9590c86c7a4b"
+ "9590c86c7a4b" -> "7a3591014bd1"
+ "7a3591014bd1" -> "531c6cca069d"
+ "531c6cca069d" [label="531c6cca069d\neins:latest",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ base [style=invisible]
+}

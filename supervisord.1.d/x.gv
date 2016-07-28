@@ -1,0 +1,65 @@
+digraph docker {
+ base -> "511136ea3c5a" [style=invis]
+ "511136ea3c5a" -> "65b7e9ccb809"
+ "65b7e9ccb809" -> "f8dd6bd14f58"
+ "f8dd6bd14f58" -> "a343823119db"
+ "a343823119db" -> "ea7d6801c538"
+ "ea7d6801c538" [label="ea7d6801c538\nubuntu:12.04\nubuntu:precise",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "511136ea3c5a" -> "8a1d8569bf87"
+ "8a1d8569bf87" -> "2be841034d7d"
+ "2be841034d7d" -> "99e40d806d07"
+ "99e40d806d07" -> "ef83896b7fb9"
+ "ef83896b7fb9" [label="ef83896b7fb9\nubuntu:trusty\nubuntu:latest",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "511136ea3c5a" -> "bac448df371d"
+ "bac448df371d" -> "dfaad36d8984"
+ "dfaad36d8984" -> "5796a7edb16b"
+ "5796a7edb16b" -> "c5881f11ded9"
+ "c5881f11ded9" [label="c5881f11ded9\nubuntu:12.10\nubuntu:quantal",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "511136ea3c5a" -> "3af9d794ad07"
+ "3af9d794ad07" -> "b7c6da90134e"
+ "b7c6da90134e" -> "47dd6d11a49f"
+ "47dd6d11a49f" -> "463ff6be4238"
+ "463ff6be4238" [label="463ff6be4238\nubuntu:13.04\nubuntu:raring",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "463ff6be4238" -> "c1da5c3da639"
+ "c1da5c3da639" -> "d4c54d2325a2"
+ "d4c54d2325a2" -> "c8586bbe78db"
+ "c8586bbe78db" -> "313d872cce38"
+ "511136ea3c5a" -> "f127542f0b61"
+ "f127542f0b61" -> "fae16849ebe2"
+ "fae16849ebe2" -> "0f4aac48388f"
+ "0f4aac48388f" -> "209ea56fda6d"
+ "209ea56fda6d" -> "195eb90b5349"
+ "195eb90b5349" [label="195eb90b5349\nubuntu:13.10\nubuntu:saucy",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "511136ea3c5a" -> "d7ac5e4f1812"
+ "d7ac5e4f1812" -> "2f4b4d6a4a06"
+ "2f4b4d6a4a06" -> "83ff768040a0"
+ "83ff768040a0" -> "6c37f792ddac"
+ "6c37f792ddac" -> "e54ca5efa2e9"
+ "e54ca5efa2e9" [label="e54ca5efa2e9\nubuntu:14.04",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "e54ca5efa2e9" -> "61855aa549c9"
+ "61855aa549c9" -> "2a061e111d79"
+ "2a061e111d79" -> "2f7f326425b3"
+ "2f7f326425b3" -> "1e6b5fe31e5c"
+ "1e6b5fe31e5c" -> "8077b575ee93"
+ "8077b575ee93" -> "83801683f9bb"
+ "83801683f9bb" -> "44c0b1e14370"
+ "44c0b1e14370" -> "e36562695d50"
+ "e36562695d50" -> "1d3bb9f1093c"
+ "1d3bb9f1093c" -> "f0519c23bfad"
+ "f0519c23bfad" -> "cac39c96c323"
+ "cac39c96c323" -> "2163499f9f66"
+ "2163499f9f66" -> "7fa2d1cc2199"
+ "7fa2d1cc2199" -> "fa4b204d7098"
+ "fa4b204d7098" -> "d4739aa8de4e"
+ "d4739aa8de4e" -> "eb0eaa4dbef7"
+ "eb0eaa4dbef7" -> "e00791cc5d78"
+ "e00791cc5d78" [label="e00791cc5d78\nrogeraaut/supervisord:latest",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ "61855aa549c9" -> "088cdf93228f"
+ "088cdf93228f" -> "d92ea71159b5"
+ "e54ca5efa2e9" -> "01aa5a1c88a5"
+ "01aa5a1c88a5" -> "ceb16308cde0"
+ "511136ea3c5a" -> "6cfa4d1f33fb"
+ "6cfa4d1f33fb" -> "3db9c44f4520"
+ "3db9c44f4520" [label="3db9c44f4520\nubuntu:10.04\nubuntu:lucid",shape=box,fillcolor="paleturquoise",style="filled,rounded"];
+ base [style=invisible]
+}
