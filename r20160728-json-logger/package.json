@@ -1,10 +1,10 @@
 {
-  "name": "r20160728.d",
+  "name": "r20160728-json-logger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "micro -p 13000 index.js | bunyan",
+    "start": "micro -p 13001 index.js | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
