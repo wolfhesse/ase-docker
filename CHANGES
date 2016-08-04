@@ -1,3 +1,9 @@
+Version 0.4.0:
+ - buchhaltung
+ - adding r20160729-lang-controller
+ - Merge tag '0.3.0' into develop
+ - Merge branch 'r-0.3.0'
+
 Version 0.3.0:
  - add ruby and python3 sample calls
  - service ready
