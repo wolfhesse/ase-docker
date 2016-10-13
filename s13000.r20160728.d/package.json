@@ -2,9 +2,9 @@
   "name": "r20160728.d",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "micro -p 13000 index.js | bunyan",
+    "start": "micro -p 13000 app.js | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bunyan": "^1.8.1",
-    "micro": "^5.0.0",
+    "micro": "^6.0.0",
     "then-sleep": "^1.0.1"
   }
 }
