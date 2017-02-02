@@ -16,6 +16,11 @@ module.exports =  async function (req, res) {
 		rc=data.post;
 		is_processed = true;
 	}
+	if ( !is_processed && data != undefined) {
+		log.info('got free data: ' + JSON.stringify(data));
+		rc=data;
+		is_processed = true;
+	}
 	if ( !is_processed && data.post != undefined ) {
 		is_processed = true;
 		log.warn('no data available');
