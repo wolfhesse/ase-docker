@@ -1,0 +1,16 @@
+{
+  "name": "scratchpad.d",
+  "version": "1.0.0",
+  "description": "playground",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "nodeunit": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@wolfhesse",
+  "license": "ISC"
+}
