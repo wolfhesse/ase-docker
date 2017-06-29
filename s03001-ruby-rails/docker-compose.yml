@@ -1,7 +1,11 @@
 version: '2'
 services:
-        db:
+        s1:
                 image: postgres
+                environment:
+                        - ROGERA=1
+                env_file:
+                        - s1.env
         web:
                 build: .
                 command: bundle exec rails s -p 3000 -b '0.0.0.0'
@@ -10,4 +14,4 @@ services:
                 ports:
                         - "3001:3000"
                 depends_on:
-                        - db
+                        - s1
