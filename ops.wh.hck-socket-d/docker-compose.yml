@@ -1,0 +1,12 @@
+hck_socket_d:
+  restart: always
+  image: wolfhesse/hck-socket-d:latest
+  ports:
+    - 44000:44000
+  #dns: 8.8.8.8
+  #dns: "8.8.8.8"
+
+  environment:
+    SERVER: metaloi.wolfspool.chickenkiller.com
+    SERVER_PORT: '2222'
+    OLDSERVER_PORT: '2223'
