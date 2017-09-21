@@ -1,3 +1,54 @@
+Version 0.6.0:
+ - Merge remote-tracking branch 'origin/core' into wolfspool
+ - Merge branch 's0' into wolfspool
+ - adding ase-kube
+ - Merge branch 's0' of base:code/ase-docker into s0
+ - Merge remote-tracking branch 'origin/wolfspool' into s0
+ - merge orig s0
+ - wp
+ - wp
+ - configs
+ - working w/ large 4g
+ - working 4 node, but.. ..useless. w/o scaling out
+ - scalable?
+ - merke: reserved!
+ - wp
+ - initial vsts agent starter script
+ - wp
+ - reloc
+ - move rethink docker from wolfspool to inner: s0
+ - swagger-ui is not swagger-editor ;)  // it is the generator frontend
+ - wp
+ - adding s0:18022 swaggerui
+ - rename script
+ - integrate compose and stack d s
+ - wp
+ - demo feature
+ - prune and graft, naming
+ - rails app 3001
+ - wp
+ - Merge branch 'r100' into core
+ - merged r22
+ - wp
+ - relocating bear-server and another node one
+ - gambling docker memory sizes for r22 rethink-cluster
+ - s_ start script for docker rethink-cluster r22
+ - wp on r100
+ - d-ase-docker-sieve initial
+ - rename start script
+ - wp
+ - updates d-ase- service range
+ - renamed to d-ase- service naming convention
+ - modified for micro 6.0 und fallunterscheidung von json daten
+ - renamed s13000
+ - renamed to d-ase service naming convention
+ - wh-ubi w/ rogera
+ - adding standardized ubi
+ - start docker rethinkdb on core
+ - rq docker alpine ruby es
+ - Merge tag '0.5.0' into develop
+ - Merge branch 'r-0.5.0'
+
 Version 0.5.0:
  - Merge remote-tracking branch 'origin/core' into r-0.5.0
  - docker alpine node .md
