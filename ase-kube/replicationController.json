@@ -1,0 +1,31 @@
+{
+	"apiVersion": "v1",
+	"kind": "ReplicationController",
+	"metadata": {
+		"name": "dotnetapp-sample"
+	},
+	"spec": {
+		"replicas": 1,
+		"selector": {
+			"app":"dotnetapp-sample"
+		},
+		"template": {
+			"metadata": {
+				"labels": {
+					"app":"dotnetapp-sample"
+				}
+			},
+			"spec": {
+				"containers": [
+					{
+						"name": "dotnetapp-sample",
+						"image": "wolfhesse/dotnetapp-sample:latest",
+						"imagePullPolicy": "IfNotPresent"
+					}
+				],
+				"restartPolicy": "Always",
+				"dnsPolicy": "ClusterFirst"
+			}
+		}
+	}
+}
