@@ -23,7 +23,7 @@ metadata:
   uid: dd2fc550-92c3-11e7-ba35-080027910c93
 spec:
   containers:
-  - image: wolfhesse/dotnetapp-sample:157
+  - image: wolfhesse/dotnetapp-sample:179
     imagePullPolicy: IfNotPresent
     name: dotnetapp-sample
     resources: {}
