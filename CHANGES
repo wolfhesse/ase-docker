@@ -1,3 +1,7 @@
+Version 0.0.1:
+ - Merge tag '0.5.0' into develop
+ - Merge branch 'r-0.5.0'
+
 Version 0.5.0:
  - Merge remote-tracking branch 'origin/core' into r-0.5.0
  - docker alpine node .md
